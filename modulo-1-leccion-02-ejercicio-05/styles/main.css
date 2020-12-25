@@ -1,5 +1,5 @@
-/* NO TOCAR ESTOS ESTILOS */
-ul.news {
+/* NO TOCAR ESTOS ESTILOS 
+.news {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -8,31 +8,68 @@ ul.news {
 a {
   color: red;
 }
-ul.news li.news__item {
+.news .news__item {
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 10px;
 }
-ul.news li.news__item + li.news__item {
+.news .news__item + .news__item {
   border-top: 1px solid #ccc;
 }
-ul.news li.news__item:nth-child(2n) {
+.news .news__item:nth-child(2n) {
   background: #eee;
 }
-ul.news li.news__item:last-child {
+.news .news__item:last-child {
   border-bottom: 1px solid #ccc;
 }
-ul.news li.news__item h2.news__item-title {
+.news .news__item h2.news__item-title {
   margin: 0 0 0.25em;
   font-size: 20px;
 }
-ul.news li.news__item a.news__item-link {
+.news .news__item a.news__item-link {
   color: green;
 }
-/* NO TOCAR ESTOS ESTILOS */
+*/
 
 /* Nuevos estilos a partir de esta línea */
+* {
+  margin: 2px;
+  box-sizing: border-box;
+  border: 2px solid rebeccapurple;
+}
+.news {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+.newsitem {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 10px;
+}
 
-ul.news li.news__item a.news__item-link {
+.newsitem-title {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 10px;
   color: red;
+}
+
+.newsitem:nth-child(2n) {
+  background: #ae70d8;
+}
+.newsitem:last-child {
+  background-color: grey;
+}
+.newsitem-link {
+  text-decoration: none;
+  color: aqua;
+}
+.newsitem-link:hover {
+  color: white;
+  background-color: tomato;
+}
+.newsitem-link:visited {
+  color: pink;
 }
