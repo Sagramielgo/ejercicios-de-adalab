@@ -1,14 +1,24 @@
-span,
-p {
-  background-color: #a0c5e9;
+* {
+  margin: 2px;
+  border: rebeccapurple 2px solid;
+  box-sizing: border-box;
 }
-
-.info {
-  background-color: transparent;
+.body {
+  display: block;
 }
-
-.inline-block {
-  display: inline-block;
-  width: 80px;
+.package {
+  width: 100px;
   height: 100px;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.blue {
+  background-color: powderblue;
+}
+
+.green {
+  background-color: rgb(113, 233, 165);
 }
