@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 2px;
-  border: 2px solid rebeccapurple;
+
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .bold {
@@ -14,4 +13,15 @@
 .mark {
   font-family: monospace;
   background-color: gainsboro;
+  padding: 0;
+}
+.h2 {
+  padding-top: 50px;
+}
+.point {
+  margin-top: 40px;
+}
+.blockquote {
+  margin: 0 50px;
+  padding: 30px;
 }
