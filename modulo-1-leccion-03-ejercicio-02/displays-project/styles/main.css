@@ -1,16 +1,24 @@
-* {
-  margin: 2px;
-  border: rebeccapurple 2px solid;
-  box-sizing: border-box;
-}
 .body {
-  display: block;
+  margin: 50px;
 }
-.package {
+
+.package,
+.inline,
+.inline-block,
+.none {
   width: 100px;
   height: 100px;
 }
 
+.inline {
+  display: inline;
+  margin: 10px;
+  padding: 0 10px;
+}
+
+.inline-block {
+  display: inline-block;
+}
 .pink {
   background-color: pink;
 }
@@ -21,4 +29,7 @@
 
 .green {
   background-color: rgb(113, 233, 165);
+}
+.none {
+  display: none;
 }
