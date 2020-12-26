@@ -1,2 +1,17 @@
-mark {
+* {
+  box-sizing: border-box;
+  margin: 2px;
+  border: 2px solid rebeccapurple;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.bold {
+  font-weight: bold;
+}
+
+.body {
+  margin: 50px;
+}
+.mark {
+  font-family: monospace;
+  background-color: gainsboro;
 }

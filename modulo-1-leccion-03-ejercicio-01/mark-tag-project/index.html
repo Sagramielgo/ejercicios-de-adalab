@@ -4,22 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>lesson 03 exercise 01</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 
-<body>
+<body class="body">
     <h1>MARK TAG</h1>
 
-    <h2>Usos del Elemento mark </h2>
+    <h2>Usos del Elemento <span class="mark">mark</span> </h2>
 
-    <p>El Elemento HTML Mark representa un texto <span>marcado</span> o <span>resaltado</span> como referencia o
+    <p>El Elemento HTML Mark representa un texto <span class="bold">marcado</span> o <span class="bold">resaltado</span>
+        como referencia o
         anotación, debido a su
         relevancia o importancia en un contexto particular.</p>
     <ul>
         <li>
-            <p>En una cita (<q>) o en otro bloque (), generalmente indica texto que es de especial interés pero que
-                    no está destacado en el material de origen, o material que necesita especial escrutinio, aunque el
-                    autor original no lo considerase importante.</p>
+            <p>En una cita (<span class="mark">q</span>) o en otro bloque (<span class="mark">blockquote</span>),
+                generalmente indica texto que es de especial interés pero que
+                no está destacado en el material de origen, o material que necesita especial escrutinio, aunque el
+                autor original no lo considerase importante.</p>
         </li>
         <li>
             <p>Por otro lado, indica una parte del contenido del documento que probablemente sea relevante para el
@@ -38,7 +41,21 @@
             </p>
         </li>
     </ul>
-    <p></p>
+
+    <h3>Marcar texto de interés</h3>
+
+    <p>En este ejemplo, <span class="mark">mark</span> se utiliza para resaltar texto en una cita que es de particular
+        insterés para el usuario.</p>
+
+    <blockquote>
+        It is a period of civil war. Rebel spaceships, striking from a
+        hidden base, have won their first victory against the evil
+        Galactic Empire. During the battle, <mark>Rebel spies managed
+            to steal secret plans</mark> to the Empire’s ultimate weapon,
+        the DEATH STAR, an armored space station with enough power to
+        destroy an entire planet.
+    </blockquote>
+
 
 </body>
 
