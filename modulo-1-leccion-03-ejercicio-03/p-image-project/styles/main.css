@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 2px;
+  border: 2px solid rebeccapurple;
+}
+
+.main {
+  margin: 50px 50px;
+}
+.cats {
+  width: 100px;
+  height: 100px;
+}
