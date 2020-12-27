@@ -1,12 +1,23 @@
 * {
   margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-sizing: border-box;
 }
 
 .body {
-  margin: 50px;
+  margin: 0 100px;
 }
-.photo {
-  width: 200px;
-  height: 200px;
+.main {
+  display: flex;
+}
+.photobox {
+  width: 300px;
+  height: 300px;
+  background: url(../images/0899eafb344f09b3656c18938718e1ff.jpg) no-repeat
+    center;
+  background-size: contain;
+}
+
+.text {
+  margin: 50px 100px 0 50px;
 }
