@@ -1,2 +1,39 @@
 * {
   margin: 0;
+}
+.container {
+  margin: 10% auto;
+
+  width: 100%;
+  max-width: 960px;
+}
+.header,
+.footer {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  background-color: lightgreen;
+  padding: 0.5em 0;
+}
+.header {
+  background-color: red;
+}
+.main {
+  display: flex;
+}
+.aside {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+.article {
+  padding: 2em 1em;
+  width: 50%;
+  background-color: cyan;
+}
+.one {
+  background-color: yellow;
+}
+.two {
+  background-color: fuchsia;
+}
