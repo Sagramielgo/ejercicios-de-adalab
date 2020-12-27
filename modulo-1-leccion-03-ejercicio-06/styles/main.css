@@ -1,9 +1,12 @@
+* {
+  margin-left: 20px;
+}
 .container {
   border: 1px solid deeppink;
 }
 .col {
   display: inline-block;
-  width: 300px;
+  width: 400px;
   vertical-align: top;
 }
 .container--1 {
