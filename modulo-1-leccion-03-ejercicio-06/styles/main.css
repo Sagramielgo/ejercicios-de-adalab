@@ -3,6 +3,7 @@
 }
 .container {
   border: 1px solid deeppink;
+  padding: 1em 1em;
 }
 .col {
   display: inline-block;
@@ -10,10 +11,10 @@
   vertical-align: top;
 }
 .container--1 {
-  height: 100px;
+  height: 120px;
   width: 200px;
   /* Añadir propiedad overflow */
-  overflow: hidden;
+  overflow-block: inherit;
 }
 .container--2 {
   height: 200px;
