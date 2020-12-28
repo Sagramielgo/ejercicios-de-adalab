@@ -1,5 +1,16 @@
 * {
   box-sizing: border-box;
-  margin: 2px;
-  border: 2px solid rebeccapurple;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  padding: 0 20px;
+  background-color: greenyellow;
+}
+.list {
+  list-style: none;
+}
+.item {
+  display: inline;
 }
