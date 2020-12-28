@@ -24,4 +24,11 @@
 
 .item {
   display: inline-block;
+  font-size: 20px;
+}
+.link {
+  padding: 5px 8px;
+}
+.link:hover {
+  color: fuchsia;
 }
