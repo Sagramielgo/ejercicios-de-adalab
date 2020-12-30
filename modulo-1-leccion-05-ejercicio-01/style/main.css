@@ -1,4 +1,20 @@
-li {
-  display: inline-block;
-  margin: 6px;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+}
+.list {
+  text-align: center;
+  margin-top: 40px;
+}
+.item {
+  display: inline;
+  padding: 6px;
 }
