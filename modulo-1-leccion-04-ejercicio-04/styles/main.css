@@ -1,4 +1,23 @@
+* {
+  margin: 2px;
+  box-sizing: border-box;
+  border: rebeccapurple solid 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainContainer {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.news {
+  width: 320px;
+}
+
 .image {
-  width: 300px;
+  position: relative;
+  width: 320px;
   height: 200px;
 }
