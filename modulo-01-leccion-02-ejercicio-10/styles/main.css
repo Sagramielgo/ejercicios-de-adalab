@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainContainer {
+  width: 100%;
+  border: 8px solid;
+}
+.container {
+  margin: 106px 200px;
+}
+.name {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.text {
+  font-size: 18px;
+  margin-bottom: 27px;
+}
+.link {
+  padding: 0.5rem 1rem;
+  margin-left: -1rem;
+}
