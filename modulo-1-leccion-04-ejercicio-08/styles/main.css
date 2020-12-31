@@ -1,0 +1,44 @@
+* {
+  margin: 2px;
+  border: solid rebeccapurple 2px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.main,
+.wrapHeader,
+.wrapFooter {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+.wrapHeader,
+.wrapFooter,
+.wrapName {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  background-color: rebeccapurple;
+  color: white;
+}
+.list,
+.footerList {
+  display: flex;
+  list-style: none;
+}
+.link,
+.linkF {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.link {
+  color: white;
+}
+.link:hover,
+.linkF:hover {
+  color: fuchsia;
+}
