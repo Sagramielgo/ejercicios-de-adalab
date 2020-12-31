@@ -1,10 +1,10 @@
 * {
-  margin: 2px;
-  border: solid rebeccapurple 2px;
+  /* margin: 2px;
+  border: solid rebeccapurple 2px; */
   padding: 0;
   box-sizing: border-box;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    "Lucida Sans Unicode", Verdana, sans-serif;
 }
 .main,
 .wrapHeader,
@@ -30,15 +30,50 @@
   display: flex;
   list-style: none;
 }
+.listItem {
+  margin-left: 15px;
+}
 .link,
 .linkF {
   text-decoration: none;
   text-transform: capitalize;
+  padding: 10px 0 10px 10px;
 }
 .link {
   color: white;
 }
+.linkF {
+  font-size: small;
+}
 .link:hover,
 .linkF:hover {
   color: fuchsia;
+}
+.wrapName {
+  padding: 60px 0 10px;
+  font-size: small;
+}
+.title {
+  font-size: 2rem;
+  padding: 20px 0;
+}
+.text {
+  padding: 10px 0;
+}
+.textLast {
+  padding-bottom: 30px;
+}
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.author {
+  display: inline-block;
+}
+.footer {
+  border-top: lightgray solid 1px;
+  border-bottom: lightgray solid 1px;
+  bottom: 0;
+  background-color: white;
 }
