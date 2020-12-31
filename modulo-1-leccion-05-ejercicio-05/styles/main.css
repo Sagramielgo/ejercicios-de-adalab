@@ -1,5 +1,12 @@
-.box {
+* {
+  margin: 0;
   box-sizing: border-box;
+}
+.container {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  border: solid 2px;
 }
 .box1 {
   position: absolute;
@@ -18,7 +25,6 @@
   background-color: green;
 }
 .box3 {
-  box-sizing: border-box;
   position: absolute;
   width: 150px;
   height: 150px;
