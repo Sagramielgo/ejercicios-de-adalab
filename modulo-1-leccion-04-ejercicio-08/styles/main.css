@@ -42,9 +42,7 @@
 .link {
   color: white;
 }
-.linkF {
-  font-size: small;
-}
+
 .link:hover,
 .linkF:hover {
   color: fuchsia;
@@ -63,17 +61,16 @@
 .textLast {
   padding-bottom: 30px;
 }
-.icon {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-}
-.author {
-  display: inline-block;
-}
 .footer {
   border-top: lightgray solid 1px;
   border-bottom: lightgray solid 1px;
   bottom: 0;
   background-color: white;
+}
+.rrss {
+  padding: 15px 5px;
+  color: rebeccapurple;
+}
+.rrss:hover {
+  color: fuchsia;
 }
