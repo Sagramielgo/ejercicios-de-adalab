@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  /* margin: 2px;
+  border: solid rebeccapurple 2px; */
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+.modal {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+}
+.window {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  transform: translate(50vw, 50vh);
+  left: -250px;
+  top: -200px;
+  background-color: white;
+}
+.window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hello {
+  padding: 0 0 1em 0;
+}
+.helloText {
+  padding: 0 3em 3em 3em;
+}
+.button {
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  margin: 0 1em;
+  text-align: center;
+  padding-top: 1em;
+}
+.button1 {
+  border: rebeccapurple solid 2px;
+}
+.button2 {
+  background-color: rebeccapurple;
+  color: white;
+}
+.main,
+.wrapHeader,
+.wrapFooter {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+.wrapHeader,
+.wrapFooter,
+.wrapName {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapHeader {
+  padding-top: 20px;
+}
+.header {
+  background-color: rebeccapurple;
+  color: white;
+  height: 60px;
+}
+.list,
+.footerList {
+  display: flex;
+  list-style: none;
+}
+.listItem {
+  margin-left: 15px;
+}
+.link,
+.linkF {
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 10px 0 10px 10px;
+}
+.link {
+  color: white;
+}
+.button:hover,
+.link:hover,
+.linkF:hover {
+  color: fuchsia;
+}
+.wrapName {
+  padding: 60px 0 10px;
+  font-size: small;
+}
+.title {
+  font-size: 2rem;
+  padding: 20px 0;
+}
+.text {
+  padding: 10px 0;
+}
+.textLast {
+  padding-bottom: 30px;
+}
+.footer {
+  border-top: lightgray solid 1px;
+  border-bottom: lightgray solid 1px;
+  bottom: 0;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.rrss {
+  padding: 15px 5px;
+  color: rebeccapurple;
+}
+.rrss:hover {
+  color: fuchsia;
+}
