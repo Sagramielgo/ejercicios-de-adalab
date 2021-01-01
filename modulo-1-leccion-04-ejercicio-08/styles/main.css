@@ -1,10 +1,12 @@
 * {
-  /* margin: 2px;
-  border: solid rebeccapurple 2px; */
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Verdana, sans-serif;
+}
+.mainContainer {
+  margin-bottom: 0.5rem;
 }
 .main,
 .wrapHeader,
@@ -24,6 +26,10 @@
 .header {
   background-color: rebeccapurple;
   color: white;
+  padding: 1.5rem 0;
+}
+.page {
+  font-size: 1.3rem;
 }
 .list,
 .footerList {
@@ -51,6 +57,10 @@
   padding: 60px 0 10px;
   font-size: small;
 }
+
+.section {
+  margin-bottom: 40px;
+}
 .title {
   font-size: 2rem;
   padding: 20px 0;
@@ -58,17 +68,15 @@
 .text {
   padding: 10px 0;
 }
-.textLast {
-  padding-bottom: 30px;
-}
 .footer {
+  bottom: 0;
   border-top: lightgray solid 1px;
   border-bottom: lightgray solid 1px;
-  bottom: 0;
   background-color: white;
+  padding: 0.5rem 0;
 }
 .rrss {
-  padding: 15px 5px;
+  padding: 10px 5px;
   color: rebeccapurple;
 }
 .rrss:hover {
