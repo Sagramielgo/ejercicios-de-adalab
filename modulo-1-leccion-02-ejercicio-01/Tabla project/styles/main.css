@@ -1,14 +1,15 @@
 table.customTable {
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-collapse: collapse;
   border-width: 2px;
   border-color: #7ea8f8;
   border-style: solid;
-  color: #000000;
+  color: fuchsia;
 }
 
-table.customTable td, table.customTable th {
+table.customTable td,
+table.customTable th {
   border-width: 2px;
   border-color: #7ea8f8;
   border-style: solid;
